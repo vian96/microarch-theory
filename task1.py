@@ -77,8 +77,8 @@ def plot_processor_characteristics():
     plt.ylim(0, 35)
 
     plt.tight_layout()
-    plt.show()
     plt.savefig("task1.png")
+    plt.show()
 
 
 if __name__ == "__main__":
